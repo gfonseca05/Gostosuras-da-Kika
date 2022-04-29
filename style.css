@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --link-color: #e4df81;
+}
+
+::-webkit-scrollbar-thumb {
+    background: red; 
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+/*--===HEADER===--*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #131220;
+    height: 7rem;
+    padding: 1rem;
+    width:100vw;
+    position: fixed;
+}
+
+/*-=logo do header=-*/
+#logo{
+    display: flex;
+    background-image: url(./imagens/logo.png);
+    width: 6rem;
+    height: 6rem;
+    transition: ease-in-out .3s;
+}
+
+#logo:hover{
+    opacity: .8;
+}
+
+/*-=links do header=-*/
+.conteiner-links{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 5rem;
+    width: 50rem;
+}
+
+.conteiner-links p {
+    transition: ease-in-out .1s;
+    cursor: pointer;
+    font-size: 1.5rem
+}
+
+.navlink{
+    text-decoration:none;
+    color: aliceblue;
+    transition: ease-in-out .1s;
+}
+
+.navlink:hover{
+    color: #e4df81;
+}
+
+/*-=botão do header=-*/
+header .pecaon{
+    border: solid #FFFFFF;
+    background-color: rgba(201, 76, 76, 0);
+    color: aliceblue;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: ease-in .2s;
+    transition: ease-out .4s;
+    margin-right:5rem;   
+}
+
+
+header .pecaon:hover {
+    background-color: #e4df81;
+    color:black;
+    border: solid #e4df81;
+}
+
+/*--===GERAL===--*/
+#geral {
+    height: 100%;
+    width: 100vw;
+    background-image: url(./imagens/planodefundo.png) ;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+/*--===CARDÁPIO===--*/
+#cardapio {
+    height: 90%;
+    width: 100vw;
+    background-color: #131220d0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-cardapio{
+    display: flex;
+    color: #f1992f;
+    align-items: center;
+    letter-spacing: 1rem;
+    border-radius: 10px;
+    box-shadow: 6px 2px 2px rgb(71, 71, 71);
+    transition: ease-in-out .2s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.text-cardapio:hover{
+    opacity: .8;
+    box-shadow: 10px 6px 6px rgb(71, 71, 71);
+}
+
+.cardapioimg{
+    height: 85%;
+}
+
+/*--===DIVISÃO DE PÁGINA===--*/
+#divisor-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #131220d0;
+}
+
+#divisor-left{
+    width: 50rem;
+    height: 0;
+    border:solid #f1992f;
+}
+
+#divisor-right{
+    width: 50rem;
+    height: 0;
+    border:solid #f1992f;
+}
+/*--===SOBRE===--*/
+
+/*--===FOOTER===--*/  
+
+footer{
+    color:aliceblue;
+    margin-right: 1rem;
+    width: 97vw;
+    height: 6rem;
+    background-color: #131220;
+    padding: 2rem;
+}
+
+.conteudo_contato{
+    display: flex;
+    width: 100vw;
+    margin-left: 0;
+    justify-content: space-around;
+    
+}
+
+.link-contato{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+footer #divisor-footer{
+    width: 6rem;
+    height: 100%;
+}
