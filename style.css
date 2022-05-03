@@ -145,13 +145,18 @@ header .pecaon:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #131220d0;
+    background-color: #131220ec;
 }
 
-#divisor-left{
+#divisor-left, #divisor-left2{
     width: 50rem;
     height: 0;
     border:solid #f1992f;
+}
+
+#imgdivisor{
+    height: 20rem;
+    width: 20rem;
 }
 
 #divisor-right{
@@ -160,7 +165,28 @@ header .pecaon:hover {
     border:solid #f1992f;
 }
 /*--===SOBRE===--*/
+#sobre_pg{
+    height: 90%;
+    width: 100vw;
+    background-color: #131220d0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+#continer-sobre_pg{
+    height: 85%;
+    width: 85%;
+    border: solid red;
+    display: flex;
+    justify-content: center;
+}
+
+#title-sobre_pg{
+    font-size: 4rem;
+    letter-spacing: 1rem;
+    color: #f1992f;
+}
 /*--===FOOTER===--*/  
 
 footer{
